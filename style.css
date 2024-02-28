@@ -11,14 +11,14 @@
     	margin: 25px;	
 	}
 
-	.rankings {
-	width: 350px;
+	.header {
+	width: 250px;
     	background-color: lightblue;
     	border: 3px solid darkblue;
     	border-radius: 25px;
    	padding: 15px;
    	display: inline-block;
-    	margin: 25px;	
+    	margin: 15px;	
 	}
 
 	/* Paragraph styles*/
