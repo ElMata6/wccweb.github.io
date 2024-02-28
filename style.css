@@ -1,7 +1,7 @@
 /*Heading 1 styles*/
 	/* Eamon's Internal CSS Example */
 	
-	h1 {
+	.header {
 	width: 350px;
     	background-color: lightblue;
     	border: 3px solid darkblue;
