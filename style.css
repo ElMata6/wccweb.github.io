@@ -1,8 +1,15 @@
 /*Heading 1 styles*/
 	/* Eamon's Internal CSS Example */
 	
-	h1 {color: orange;)
-	
+	h1 {
+	width: 350px;
+    	background-color: lightblue;
+    	border: 3px solid darkblue;
+    	border-radius: 25px;
+   	padding: 15px;
+   	display: inline-block;
+    	margin: 25px;	
+	}
 	/* Paragraph styles*/
 	p {
 	color: orange;
@@ -15,12 +22,3 @@
 	} 
 
 
-.header {
-    width: 350px;
-    background-color: lightblue;
-    border: 3px solid darkblue;
-    border-radius: 25px;
-    padding: 15px;
-    display: inline-block;
-    margin: 25px;
-}	
