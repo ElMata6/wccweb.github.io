@@ -15,4 +15,12 @@
 	} 
 
 
-	
+.header {
+    width: 350px;
+    background-color: lightblue;
+    border: 3px solid darkblue;
+    border-radius: 25px;
+    padding: 15px;
+    display: inline-block;
+    margin: 25px;
+}	
