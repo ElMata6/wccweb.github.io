@@ -32,7 +32,7 @@
 	color: red;
 	} 
 
-	table,th,td {
+	.table {
 	width:800px;
 	margin:auto;
 	font-size:30px;
