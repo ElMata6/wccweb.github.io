@@ -45,5 +45,9 @@
 	background-size: 2.5%;
 	}
 	
-
-
+	.fashion-website {
+	 background-image: url(RunwayBackground.jpeg);
+    	 background-repeat: no-repeat;
+   	 background-position: center;
+   	 background-attachment: fixed;
+   	 background-size: cover;
