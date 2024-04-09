@@ -20,7 +20,7 @@
 		color: purple;
 	}
 	.playlist:focus {
-		color: orange;
+		color: red;
 	}
 
 	.header {
