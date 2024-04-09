@@ -10,6 +10,9 @@
    	display: inline-block;
     	margin: 15px;	
 	}
+	.playlist:hover {
+		color: crimson;
+	}
 
 	.header {
 	width: 350px;
