@@ -19,8 +19,8 @@
 	.playlist:visited {
 		color: purple;
 	}
-	.playlist: {
-		
+	.playlist:focus {
+		color: orange;
 	}
 
 	.header {
