@@ -67,3 +67,8 @@
 	.form_bg {
 	background-color: #FFFFFFFCC;
 	}
+
+	.play_btn {
+		color: blue;
+		font-size 40px;
+	}
