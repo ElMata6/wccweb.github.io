@@ -13,6 +13,15 @@
 	.playlist:hover {
 		color: crimson;
 	}
+	.playist:active {
+		color: black;
+	}
+	.playlist:visited {
+		color: purple;
+	}
+	.playlist: {
+		
+	}
 
 	.header {
 	width: 350px;
