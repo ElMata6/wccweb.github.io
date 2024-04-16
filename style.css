@@ -70,8 +70,13 @@
 
 	.play_btn {
 		color: blue;
-		font-size 40px;
+		font-size: 40px;
 	}
 	.play_btn:hover {
 		color: red;
+	}
+
+	.pause+_button {
+		color: green;
+		font-size: 40px;
 	}
