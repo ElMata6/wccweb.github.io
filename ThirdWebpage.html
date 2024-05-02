@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LAM</title>
-</head>
-<body>
+    <style>
+      #ArchiveCollection {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        }
+      .content {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(62, 91, 106, 0.01);
+        color: black;
+        font-family: monospace;
+        font-size: 15px;
+        }
+      a {
+        color: black;
+        font-size: 12.5px;
+        text-decoration: none;
+        }
+    </style>
+  </head>
+  <body>
     <video autoplay muted loop id="ArchiveCollection">
-      <source src="RafSimonsVideo.mp4" type="video/mp4">
+      <source src="RafSimonsVideo.mp4" type="video/mp4" />
       Your browser does not support html 5 video.
-    </video>    
-    <h1 class="fashion-website">
-      LAM
-    </h1>
+    </video>
+    <div class="content">
+      <h1>LAM</h1>
       <p>
-        This Website is just what the title says, fashion advice for men. This
-        part of the webpage will focus on current trends to help people with their
-        sense of style. Want to go back to the music or exclusive website? Just
-        click on the links below.
+        <a href="https://elmata6.github.io/wccweb.github.io/">Collection</a>
+        <a href="FourthWebpage.html">Shop</a>
+        <a href="https://elmata6.github.io/wccweb.github.io/SecondWebpage.html">Newsletter</a>
       </p>
-      <p><a href="https://elmata6.github.io/wccweb.github.io/">Music</a></p>
-      <p>
-        <a href="https://elmata6.github.io/wccweb.github.io/SecondWebpage.html">Exclusive Wesbite</a>
-      </p>
-
-</body>
+    </div>
+  </body>
 </html>
