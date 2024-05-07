@@ -4,61 +4,91 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exclusive Website</title>
+    <title>NEWSLETTER</title>
+    <style>
+      #VHSBackground {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      .bios {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.10);
+        color: rgb(214, 214, 214);
+        font-family: monospace;
+        font-size: 15px;
+      }
+      a {
+        color: rgb(214, 214, 214);
+        font-size: 12.5px;
+        text-decoration: none;
+      }
+      body {
+        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        overflow: auto;
+      }
+      .form {
+        font-size: 15px;
+        background-color: rgba(3, 3, 3, 0.05);
+        text-align: left;
+        max-width: 650px;
+        min-width: 100px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%)
+       }
+    </style>
   </head>
-  <body>
-    <h1>Welcome to the exclusive Website...</h1>
-    <p>Are you sure you want to stay on this page?</p>
-    <p><a href="https://elmata6.github.io/wccweb.github.io/">No</a></p>
-    <p>Yes (Fill out form below)</p>
-    <p><a href="https://elmata6.github.io/wccweb.github.io/ThirdWebpage.html">I need help with my sense of style</a></p>   
-
-  <div class="form_bg">
-
-
-	<!-- <input> -->
-	<!-- <label> </label> -->
+  <body background="">
+    <video autoplay muted loop id="VHSBackground">
+        <source src="VHSBackgroundEdited.mp4" type="video/mp4" />
+        Your browser does not support html 5 video.
+      </video>
+    <div class="bios">
+      <h1>NEWSLETTER</h1>
+      <p>
+        <a href="https://elmata6.github.io/wccweb.github.io/">Collection</a>
+        <a href="https://elmata6.github.io/wccweb.github.io/ThirdWebpage.html">LAM</a>
+        <a href="FourthWebpage.html">Shop</a>
+      </p>
+        <br>
+        </br>
+      <h2 class="form">
+      <p>
+	    <form action="mailto:rlarry951@yahoo.com">
 	
-	<form action="mailto:rlarry951@yahoo.com"
-	
-		<label for="user_fname">First Name</label>
-		<input type ="text" id="user_fname" name="fname">
-	
+		    <label for="user_fname">First Name</label>
+		    <input type ="text" id="user_fname" name="fname">
 		<br>
-	
-		<label for="user_lname">Last Name</label>
-		<input type ="text" id="user_lname" name="lname">
-		
+		    <label for="user_lname">Last Name</label>
+		    <input type ="text" id="user_lname" name="lname">
+        <br>
+            <label for="Birthday">Date of Birth</label> 
+            <input type ="text" id="b_day" name="b_day">
 		<br>
-		
-		<label for="ccn">Credit Card #</label>
-		<input type ="text" maxlength="16" id="cnn" name="credit_card">
-		
+            <label for="email">E-mail</label> 
+            <input type ="text" id="e_mail" name="email">
 		<br>
-		
-		<label for="ccv">CCV #</label>
-		<input type ="text" maxlength="3" i ="ccv"name="credit_card_ccv">
-		
+            <label for="ccn">Phone Number</label>
+		    <input type ="text" maxlength="16" id="cnn" name="phone#">
 		<br>
-		
-		<label for="email">E-mail</label> 
-		<input type ="text" id="e_mail" name="email">
-		
+		    <textarea> </textarea>
 		<br>
-
-		<label for="ul_file">Resume (PDF): </label>
-		<input type="file" id="ul_file" name="u_file">
-		
-		<br>
-		
-		<textarea> id="site_comment" name="link_comment" rows="4" cols="50"></textarea>
-		
-		<br>
-		
-		<input type="submit" id="sbmt" name="submit_form" value="Submit">
-		
-	</form>
-
-</div>    
+		    <input type="submit" id="sbmt" name="submit_form" value="Submit">	
+	    </form>
+      </p> 
+      </h2>
+    </div>
   </body>
 </html>
