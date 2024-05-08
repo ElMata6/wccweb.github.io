@@ -35,17 +35,28 @@
         max-width: 650px;
         min-width: 100px;
         position: fixed;
-        top: 400px;
+        top: 50%;
         left: 50%;
         transform: translateX(-50%) translateY(-50%)
       }
       .case {
+        text-transform: uppercase;
         text-transform: capitalize;
+        text-transform: lowercase;
+      }
+      .header {
+        width: 100%;
+        text-align: center;
+      }
+      .body_center {
+        max-width: 50%;
+        /*text-align: center;*/
+        margin: auto;
       }
     </style>
   </head>
   <body background="LadyStatic.jpeg">
-    <div class="bio">
+    <div class="header">
       <h1>ABOUT</h1>
       <p>
         <a href="CollectionWebpage.html">Collection</a>
@@ -53,8 +64,8 @@
         <a href="FourthWebpage.html">Shop</a>
         <a href="SecondWebpage.html">Newsletter</a>
       </p>
-      <h2 class="companyinfo">
-        <div class="case">
+    </div>
+    <div class="body_center case">
       <p> ESTABLISHED IN 1999, LAM HAS BEEN AT THE FOREFRONT OF FASHION FOR 25 YEARS.
         THROUGHOUT ITS PRESTIGE HISTORY, LAM HAS LEFT AUDIENCES IN AWE WITH THE DROP OF EVERY 
         COLLECTION. STARTING FROM HUMBLE BEGININGS IN A SMALL APARTMENT BASEMENT LOCATED IN THE 
@@ -80,8 +91,6 @@
         ONLY FULL-GRAIN LEATHER.GOING THOUGH A 3 MONTH MULTI-STAGE PROCESS TO ENSURE FAULTLESS BUILD QUALITY, THESE
         TIMELESS PIECES ARE MADE TO STAND THE TEST OF TIME.
         </p>
-          </div>
-      </h2>
-    </div>
+      </div>
   </body>
 </html>
